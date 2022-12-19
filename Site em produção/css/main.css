@@ -1,0 +1,37 @@
+
+body{
+    width: 100%;                    
+    height: 100vh;                                          /*cobrir a altura da tela inteira*/
+    background-image : url('../img/Site.em.produção.png');  /*imagem dd fundo*/
+    color: #fff;                                          /*cor das letras*/
+    display: flex;                                          /*organizará 'HEADER' 'MAIN' 'FOOTER' em linha por padrão*/
+    flex-direction: column;                                 /*organizará 'HEADER' 'MAIN' 'FOOTER' em coluna*/
+    justify-content: space-between;                         /*Espaçamento entre os elementos*/
+}
+/*****************FIGURE*******************/
+main figure{
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    margin: 10px;
+}
+
+main figure img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;                       /*metade do WIDTH/HEIGHT gerando um círculo completo*/
+    margin-bottom: 6px;
+    cursor: pointer;
+    border: 1px #00e0ff solid;
+    transition: 0.2s ease-in-out;
+}
+
+main figure img:hover{
+    box-shadow: 0px 0px 6px #00e0ff;
+}
+
+
+
+
+/*Feito por Marcio Lenes 19/12/2022*/
+

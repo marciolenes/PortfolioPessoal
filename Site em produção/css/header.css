@@ -1,0 +1,36 @@
+header {    
+    padding: 25px;
+    display: flex;                                       /***organiza os elementos em linha [padrão]***/
+    align-items: center;                                 /***alinha os elementos no centro do HEADER***/
+    justify-content: space-between;                      /***Espaçamento igual entre os elementos***/
+}
+
+header h1{  
+    font-size: 2.8em;                                    /*aumentar tamanho da fonte*/
+    font-weight: 200;                                    /*diminuir o peso [espessura] da fonte*/
+    cursor: pointer;                                     /*mudar o ponteiro do cursor [mãozinha]*/
+}
+
+header nav{ 
+    display: flex;
+    align-items: center;
+}
+
+header nav a{   
+    margin-right: 1.3em;
+    font-size: 1.5em;
+}
+
+header h1, a{   
+    color: #00e0ff;
+    transition: 0.2 ease-in-out;
+}
+
+header h1:hover, a:hover{
+    color: #fff;
+}
+
+
+
+
+/*Feito por Marcio Lenes 19/12/2022*/
